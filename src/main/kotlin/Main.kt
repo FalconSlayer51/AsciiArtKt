@@ -9,11 +9,11 @@ fun main() {
     // the lower the scale the better the image
     // scale > 0
     val art = asciiArt.convertImageToAsciiArt(
-        path = "C:\\Users\\K.RAMESH\\Downloads\\GNnhSMlbEAAmk14.jpg",
+        path = "<YOUR FILE PATH>",
         scale = 3
     )
 
-    val folderName = "E:\\Code\\asciiArtMain\\AsciiImages"
+    val folderName = "<YOUR FOLDER PATH>"
     val folder = File(folderName)
     folder.mkdirs()
 
